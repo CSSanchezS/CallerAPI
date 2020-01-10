@@ -1,6 +1,8 @@
 package callerApi.model.domain;
 
 
+import org.springframework.stereotype.Component;
+
 import lombok.Data;
 
 @Data
@@ -10,29 +12,4 @@ public class Car {
 	private String version;
 	private String model;
 	
-	public int getIdCar() {
-		return idCar;
 	}
-	public void setIdCar(int IdCar) {
-		this.idCar = IdCar;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getVersion() {
-		return version;
-	}
-	public void setVersion(String version) {
-		this.version = version;
-	}
-	public String getModel() {
-		return model;
-	}
-	public void setModel(String model) {
-		this.model = model;
-	}
-	
-}
